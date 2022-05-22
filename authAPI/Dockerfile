@@ -4,7 +4,7 @@ WORKDIR /home/node/authAPI
 
 COPY *.js /home/node/authAPI
 
-COPY package*.json /home/node/authAPI
+COPY package*.json /home/node/authAPI/
 
 RUN ["npm", "install"]
 
